@@ -1,1 +1,5 @@
-You were successfully logged in
+<html>
+	<body>
+		Logged in
+	</body>
+</html>
