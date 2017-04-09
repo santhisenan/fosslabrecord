@@ -1,18 +1,6 @@
 <?php 
-// $db = mysqli_connect('localhost', 'fc', '');
-// if (!$db){
-// die("Database db Failed" . mysqli_error($db));
-// }
-// $select_db = mysqli_select_db($db, 'fossdb');
-// if (!$select_db){
-// die("Database Selection Failed" . mysqli_error($db));
-// define('DB_SERVER','localhost');
-// define('DB_USERNAME','root');
-// define('DB_PASSWORD','');
-// define('DB_DATABASE','fossdb');
-// $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE) ;
 
-   include('config.php');
+include('config.php');
 
 session_start();
 
