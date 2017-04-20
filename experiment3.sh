@@ -1,4 +1,7 @@
-:'Experiment 2
+/*
+'Experiment 2
+Author: Santhisenan A
+
 SHELL PROGRAMMING
 DATE : 17-02-2017
 AIM
@@ -11,9 +14,8 @@ Write shell script to show various system configuration like
 5.Your current path setting
 6.Your current working directory
 7.Show Currently logged number of users
-
 '
-
+*/
 
 clear
 log=`who|wc -l`
