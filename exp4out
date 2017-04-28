@@ -1,0 +1,167 @@
+########################OS#####################
+NAME="Ubuntu"
+VERSION="15.10 (Wily Werewolf)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 15.10"
+VERSION_ID="15.10"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+##################Available Shells###########################
+# /etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+#################Mouse Info########################
+Keyboard Control:
+  auto repeat:  on    key click percent:  0    LED mask:  00000000
+  XKB indicators:
+    00: Caps Lock:   off    01: Num Lock:    off    02: Scroll Lock: off
+    03: Compose:     off    04: Kana:        off    05: Sleep:       off
+    06: Suspend:     off    07: Mute:        off    08: Misc:        off
+    09: Mail:        off    10: Charging:    off    11: Shift Lock:  off
+    12: Group 2:     off    13: Mouse Keys:  off
+  auto repeat delay:  500    repeat rate:  33
+  auto repeating keys:  00ffffffdffffbbf
+                        fadfffefffedffff
+                        9fffffffffffffff
+                        fff7ffffffffffff
+  bell percent:  50    bell pitch:  400    bell duration:  100
+Pointer Control:
+  acceleration:  5/1    threshold:  5
+Screen Saver:
+  prefer blanking:  yes    allow exposures:  yes
+  timeout:  0    cycle:  0
+Colors:
+  default colormap:  0x20    BlackPixel:  0x0    WhitePixel:  0xffffff
+Font Path:
+  /usr/share/fonts/X11/misc,/usr/share/fonts/X11/Type1,built-ins
+DPMS (Energy Star):
+  Standby: 0    Suspend: 0    Off: 0
+  DPMS is Enabled
+  Monitor is On
+####################Memory Information####################
+MemTotal:        4139556 kB
+MemFree:         2792556 kB
+MemAvailable:    3530656 kB
+Buffers:           91716 kB
+Cached:           639248 kB
+SwapCached:            0 kB
+Active:           926740 kB
+Inactive:         329276 kB
+Active(anon):     525908 kB
+Inactive(anon):    14060 kB
+Active(file):     400832 kB
+Inactive(file):   315216 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+HighTotal:       3280840 kB
+HighFree:        2276224 kB
+LowTotal:         858716 kB
+LowFree:          516332 kB
+SwapTotal:       4192252 kB
+SwapFree:        4192252 kB
+Dirty:               132 kB
+Writeback:             0 kB
+AnonPages:        525084 kB
+Mapped:           197924 kB
+Shmem:             14920 kB
+Slab:              61056 kB
+SReclaimable:      47552 kB
+SUnreclaim:        13504 kB
+KernelStack:        3424 kB
+PageTables:         9496 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6262028 kB
+Committed_AS:    3690380 kB
+VmallocTotal:     122880 kB
+VmallocUsed:       54040 kB
+VmallocChunk:      40224 kB
+AnonHugePages:    163840 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       28664 kB
+DirectMap2M:      884736 kB
+#####################Hard Disk Info####################
+Driver: 
+/dev/sda:
+
+ATA device, with non-removable media
+	Model Number:       VBOX HARDDISK                           
+	Serial Number:      VB3facf9f2-41d0fa86 
+	Firmware Revision:  1.0     
+Standards:
+	Used: ATA/ATAPI-6 published, ANSI INCITS 361-2002 
+	Supported: 6 5 4 
+Configuration:
+	Logical		max	current
+	cylinders	16383	16383
+	heads		16	16
+	sectors/track	63	63
+	--
+	CHS current addressable sectors:   16514064
+	LBA    user addressable sectors:   41943040
+	LBA48  user addressable sectors:   41943040
+	Logical/Physical Sector size:           512 bytes
+	device size with M = 1024*1024:       20480 MBytes
+	device size with M = 1000*1000:       21474 MBytes (21 GB)
+	cache/buffer size  = 256 KBytes (type=DualPortCache)
+Capabilities:
+	LBA, IORDY(cannot be disabled)
+	Queue depth: 32
+	Standby timer values: spec'd by Vendor, no device specific minimum
+	R/W multiple sector transfer: Max = 128	Current = 128
+	DMA: mdma0 mdma1 mdma2 udma0 udma1 udma2 udma3 udma4 udma5 *udma6 
+	     Cycle time: min=120ns recommended=120ns
+	PIO: pio0 pio1 pio2 pio3 pio4 
+	     Cycle time: no flow control=120ns  IORDY flow control=120ns
+Commands/features:
+	Enabled	Supported:
+	   *	Power Management feature set
+	   *	Write cache
+	   *	Look-ahead
+	   *	48-bit Address feature set
+	   *	Mandatory FLUSH_CACHE
+	   *	FLUSH_CACHE_EXT
+	   *	Gen2 signaling speed (3.0Gb/s)
+	   *	Native Command Queueing (NCQ)
+Checksum: correct
+##################File Mounted#####################
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+udev /dev devtmpfs rw,nosuid,relatime,size=2053224k,nr_inodes=206403,mode=755 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,noexec,relatime,size=413956k,mode=755 0 0
+/dev/sda1 / ext4 rw,relatime,errors=remount-ro,data=ordered 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+tmpfs /run/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=5120k 0 0
+tmpfs /sys/fs/cgroup tmpfs rw,mode=755 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
+pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset,clone_children 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event,release_agent=/run/cgmanager/agents/cgm-release-agent.perf_event 0 0
+cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb,release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=27,pgrp=1,timeout=0,minproto=5,maxproto=5,direct 0 0
+mqueue /dev/mqueue mqueue rw,relatime 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,relatime 0 0
+cgmfs /run/cgmanager/fs tmpfs rw,relatime,size=100k,mode=755 0 0
+tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=413956k,mode=700,uid=1000,gid=1000 0 0
+gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
