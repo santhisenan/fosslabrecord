@@ -14,11 +14,11 @@ then
     echo "Script Running..."
     kill_mem=` echo "$size>$memlimit" | bc `
     kill_cpu=` echo "$cpu>$cpulimit" | bc `
-    if ["$kill_mem = 1"]
+    if [ "$kill_mem = 1" ]
     then
         echo "process with PID $pid killed"
         kill $pid
-    elif ["$kill_cpu = 1"]
+    elif [ "$kill_cpu = 1" ]
     then
         echo "process with PID $pid killed"
         kill $pid
