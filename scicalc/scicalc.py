@@ -100,17 +100,6 @@ class calcWindow(Gtk.Window):
 		grid.attach_next_to(clear,button7,Gtk.PositionType.TOP,1,1)
 		grid.attach_next_to(delete,divide,Gtk.PositionType.TOP,1,1)
 
-
-
-
-
-
-
-
-		
-
-		
-
 calcWindow = calcWindow()
 calcWindow.connect('delete-event',Gtk.main_quit)
 calcWindow.show_all()
